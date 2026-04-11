@@ -1,1 +1,39 @@
+#board{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 5px;
+    width: max-content;
+    margin: 140px auto;
+    background: black;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
 
+.result{
+    text-align: center;
+    font-size: 28px;
+}
+button{
+    border: 5px ridge yellowgreen;
+    height: 40px;
+    width: 80px;
+    font-size: large;
+    cursor: pointer;
+}
+button:active{
+   transform: scale(0.95);
+}
